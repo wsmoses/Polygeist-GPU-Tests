@@ -1,0 +1,3 @@
+#include "cuda.h"
+
+__global__ void kernel0(double *A, double *C, double alpha, double beta, int n, int m);

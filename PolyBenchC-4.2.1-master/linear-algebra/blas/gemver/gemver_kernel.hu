@@ -1,0 +1,5 @@
+#include "cuda.h"
+
+__global__ void kernel0(double *A, double *u1, double *u2, double *v1, double *v2, int n);
+__global__ void kernel1(double *A, double beta, double *x, double *y, double *z, int n);
+__global__ void kernel2(double *A, double alpha, double *w, double *x, int n);
